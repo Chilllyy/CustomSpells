@@ -30,7 +30,6 @@ public class HelloWorldSpell extends InstantSpell {
             aud.sendMessage(text);
         });
         playSpellEffects(data);
-        MagicSpells.plugin.getServer().getPluginManager().disablePlugin(MagicSpells.plugin);
         return new CastResult(PostCastAction.ALREADY_HANDLED, data);
     }
 }
