@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>me.chillywilly</groupId>
-    <artifactId>template-plugin</artifactId>
+    <artifactId>chilly-spell</artifactId>
     <version>1.0.0</version>
 
     <properties>
@@ -52,11 +52,11 @@
         <dependency>
             <groupId>com.github.TheComputerGeek2.MagicSpells</groupId>
             <artifactId>core</artifactId>
-            <version>main-SNAPSHOT</version>
+            <version>3d80d93</version>
             <exclusions>
                 <exclusion>
-                    <groupId>*</groupId>
                     <artifactId>*</artifactId>
+                    <groupId>*</groupId>
                 </exclusion>
             </exclusions>
         </dependency>
